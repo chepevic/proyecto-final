@@ -1,0 +1,301 @@
+@media screen and (max-width: 1280px) {
+	.footer{
+		box-sizing:border-box;
+		padding:60px 30px;
+
+		&-logo{
+			box-sizing:border-box;
+			width: 10%;
+		}
+
+	}
+}
+
+@media screen and (max-width: 1142px) {
+	.footer{
+
+		padding:30px;
+		&-logo{
+			box-sizing:border-box;
+			width: 15%;
+		}
+
+	}
+	.cookie{
+		flex-direction:column;
+		&-img{
+			width: 100%;
+			img{
+				vertical-align: bottom;
+			}
+		}
+		&-content{
+			width:100%;
+		}
+	}
+}
+@media screen and (max-width: 1010px) {
+	.footer{
+		flex-direction:column;
+	}
+}
+
+@media screen and (max-width:1009px) {
+	/*SHIPPING*/
+	.shipping{
+		padding:30px;
+	}
+	/*COUNTER*/
+	.counter{
+		box-sizing:border-box;
+		padding:30px;
+		width:100%;
+		
+		&-numbers{
+			width: 100%;
+			justify-content:space between;
+
+			&-box{
+				font-size:5em;
+				width:137px;
+			}
+		}
+
+	}
+	/*PRIMERA FORMA*/
+	.shipform{
+		box-sizing:border-box;
+		padding:30px;
+	}
+
+}
+
+@media screen and (max-width:890px) {
+	.shipping{
+		&-icon{
+			font-size:6em;
+			padding:5px 0;
+		} 
+		&-work{
+			&-icon{
+				font-size:6em;
+				padding:5px 0;
+
+			} 
+
+		}
+
+	}
+	.footer{
+		&-logo{
+			&-icon{
+				font-size:6em;
+				padding:5px 0;
+			}
+
+		}
+
+	}
+}
+
+@media screen and (max-width:710px) {
+	.counter{
+		&-bottom{
+			&-title{
+				font-weight: 100;
+				font-size:1em;
+
+			}
+		}
+
+	}
+}
+@media screen and (max-width:610px) {
+	/*SHIPPING*/
+	.shipping{
+		&-icon{
+			font-size:5em;
+			text-align: center;
+
+		}
+		&-title{
+			font-size:2em;
+		}
+		&-content{
+			flex-direction:column;
+			&-text{
+				width:100%;
+			}
+		}
+		&-work{
+			flex-direction:column;
+			&-icon{
+				text-align:center;
+			}
+			&-content{
+				width:100%;
+			}
+		}
+	}
+	/*COUNTER*/
+	.counter{
+		&-bottom{
+			&-title{
+				font-weight: 100;
+				font-size:0.9em;
+
+			}
+		}
+	}
+
+	/*COOKIE*/
+	.cookie{
+		width:100%;
+		&-content{
+			width: 100%;
+			&-button{
+				max-width:none;
+				width: 100%;
+				padding:15px 0;
+				font-size:1.2em;
+			}
+		}
+
+	}
+
+	/*PRIMERA FORMA*/
+
+	.shipform{
+		&-title{
+			font-size:2em;
+		}
+		&-form{
+			flex-direction: column;
+			&-colOne{
+				width: 100%;
+				input[type=submit]{
+					max-width: none;
+					width: 100%;
+					padding:10px 0;
+					font-size:1.1em;
+				}
+			}
+		}
+
+	}
+	/*QUESTIONS*/
+	.questions{
+		&-title{
+			font-size: 2em;
+		}
+
+	}
+	/*FOOTER*/
+	.footer{
+		&-logo{
+			text-align: center;
+			padding-bottom:5px;
+			width: 100%;	 
+			&-icon{ 	
+				font-size:5em;
+
+			}
+
+		}
+	}
+
+}
+@media screen and (max-width:500px) {
+	/*SECCION SHIPPING*/
+	.shipping{
+		padding:10px;
+	}
+	/*COUNTER*/
+	.counter{
+		padding:10px;
+		font-size:0.8em;
+		&-top{
+			padding-top:0px;
+		}
+		&-numbers{
+			&-box{
+				font-size:2em;
+			}
+		}
+		&-bottom{
+			padding-bottom:0px;
+		}
+
+	}
+	/*COOKIE*/
+	.cookie{
+		&-content{
+			padding:20px 10px;
+			&-title{
+				font-size:2em;
+
+			}
+
+		}
+	}
+	/*PRIMERA FORMA*/
+	.shipform{
+		width: 100%;
+		padding:30px 10px;
+		&-title{
+			font-size:1.8em;
+		}
+		&-form{
+			width: 100%;
+			&-container{
+				flex-direction: column;
+				.colOne{
+					width: 100%;
+				}
+
+			}
+			&-button{
+				input[type=submit]{
+					font-size:1em;
+					padding:15px 0px;
+					width:100%;
+				}
+			}
+		}
+	}
+
+	/*QUESTIONS*/
+	.questions{
+		font-size: 0.9em;
+		padding:10px;
+		&-title{
+			font-size: 1.8em;
+		}
+	}
+	/*FOOTER*/
+	.footer{
+		padding:10px;
+		&-form{
+			&-formulario{
+				input[type=submit]{
+					font-size:1em;
+					padding:10px;
+
+				}
+				::-webkit-input-placeholder{
+					font-size:0.5em;
+					text-align:center;
+				}
+				::-moz-placeholder{
+					font-size:0.5em;
+					text-align:center;
+				}
+				:-ms-input-placeholder{ 
+					font-size:0.5em;
+					text-align:center; 
+				}
+			}
+		}
+
+	}
+}
